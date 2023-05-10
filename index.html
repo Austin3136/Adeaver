@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Hakeem Wilson - Engineer</title>
+</head>
+<body>
+
+    <!-- Fonts from Google -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Titillium+Web">
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="jquery/jquery-1.12.3.min.js"></script>
+
+    <!-- Load bootstrap first so you don't briefly see the ugly, unstyled version. -->
+    <!-- Bootstrap -->
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+    <!-- IMAGE ABOVE TABS -->
+    <div id="mainNavbar" class="navbar-default navbar-fixed-top"> <!--not REALLY a bootstrap navbar... just borrowing the fixed-top behavior--->
+		<div id="hakeemImageDiv" class="container-fluid">
+			<!-- img-rounded and col-xs-2 don't play nice when both classes of img, so put the img in a div -->
+			<div id="hakeemImageDiv2" class="col-xs-offset-5 col-xs-2">
+				<img id="hakeemImage" src="img/HakeemWilson.jpg" class="img-rounded" alt="Hakeem Wilson - Engineer">
+			</div>
+		</div>
+
+		<!-- TABS -->
+		<div id="tabBarContainer" class="container-fluid text-center">
+			<ul id="tabBar" class="nav nav-tabs">
+				<li class="col-md-3 active">
+					<a data-toggle="tab" class="skinnyPanel" href="#aboutMe" aria-expanded="true">About Me</a>
+				</li>
+
+				<li class="col-md-3">
+					<a data-toggle="tab" class="widePanel" href="#sampleWorks" aria-expanded="false">Personal Projects</a>
+				</li>
+
+				<li class="col-md-3">
+					<a data-toggle="tab" class="widePanel" href="#resume" aria-expanded="false">Resume</a>
+				</li>
+
+				<li class="col-md-3">
+					<a data-toggle="tab" class="skinnyPanel" href="#contactMe">Contact Me</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+    <!-- TAB PANE CONTENT -->
+    <div id="tabContentContainer" class="container-fluid col-xs-offset-3 col-xs-6 tab-content text-left">
+        <!-- ABOUT ME -->
+        
+        <div class="tab-pane active fade in" id="aboutMe">
+          <h2>Hi, I am Hakeem Wilson - Engineer</h2>
+          
+          <h4><u>In a hurry? Just read the bold and the bullet points.</u></h4>
+  
+          <p>
+            I'm an <strong>computer engineer</strong> currently living in Atlanta, Georgia and working for Compas Technolgy Group, LLC. 
+            In addition to my professional experience, I have worked on a variety of exciting projects, including electric vehicles, machine learning, and 
+            embedded software/firmware development. Most of my work experience is hardware/software integration and development, but I have worked on all sorts of hobbies and
+            side-projects in my spare time, including...
+          </p>
+  
+          <ul>
+            <li>Microcrontrollers and Raspberry Pis</li>
+            <li>Sound interesting? <span><strong><a id="sampleLink">Check them
+                    out.</a></strong></span> <!-- span to keep on 1 line --></li>
+          </ul>
+          <p>
+            Or look
+            at <span><strong><a href="https://github.com/HakeemJW">my
+                  github!</a></strong></span> 
+          </p>
+  
+          <hr>
+  
+          <h3><strong>Work</strong></h3>
+          <p>My <strong>work experience:</strong></p>
+  
+          <ul>
+            <li>Research Engineer, <strong>Compass Technology Group, LLC</strong>, 2/2021 - Present</li>
+          </ul>
+  
+          <p>
+            More info can be found on <span><strong><a class="resumeLink">my
+                  resume.</a></strong></span>
+          </p>
+          
+          <hr>
+  
+          <h3><strong>Skills</strong></h3>
+          <p>
+            Here is a quick run-down of what <strong>languages I have
+              worked frequently with</strong>:
+          </p>
+          
+          <ul>
+            <li>C++</li>
+            <li>C</li>
+            <li>Python</li>
+            <li>C#</li>
+            <li>VHDL</li>
+            <li>JavaScript</li>
+            <li>Assembly (ARM)</li>
+
+          </ul>
+  
+          <p>
+            <strong>Technologies</strong> that I am very comfortable with:
+          </p>
+          
+          <ul>
+            <li>Windows</li>
+            <li>Linux</li>
+            <li>Git</li>
+            <li>Visual Studio</li>
+          </ul>
+  
+          <p>
+            And a bunch of <strong>languages and technologies that I have used
+            to varying degree</strong>, but haven't used too
+            frequently or recently. The higher on this list, the more
+            comfortable I am with it:
+          </p>
+          
+          <ul>
+            <li>Xilinx Vivado</li>
+            <li>MSVC</li>
+            <li>STM32CubeIDE</li>
+            
+          </ul>
+  
+          <p>
+            For a better picture of my skill-set check
+            out <span><strong><a class="resumeLink">my
+                  resume.</a></strong></span>
+          </p>
+  
+          <hr>
+  
+          <h3><strong>Etc...</strong></h3>
+          <p>
+            Still reading? Well, here are some <strong>random things</strong> about
+            me that may or may not be of interest:
+          </p>
+
+          <ul>
+            <li>I've been body building and powerlifting for 11 years.</li>
+            <li>I've built over 10 computers.</li>
+            <li>I have a standing long jump of 10 feet.</a></li>
+            <li>I love cinematic video. It is a big part of what got me
+              interested in computers (and subsequently, hardware and programming).</li>
+            <li>I love snowboarding .</li> 
+          </ul>
+
+
+          <button class="btn center-block btn-primary backToTop">Back to the top</button>
+        </div>
+</body>
+</html>
